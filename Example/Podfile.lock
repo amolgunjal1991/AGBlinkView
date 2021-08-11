@@ -1,0 +1,16 @@
+PODS:
+  - AGBlinkView (0.1.0)
+
+DEPENDENCIES:
+  - AGBlinkView (from `../`)
+
+EXTERNAL SOURCES:
+  AGBlinkView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AGBlinkView: 3c69467ca3495bcf001b45bce20f13bcb804d7c6
+
+PODFILE CHECKSUM: 3dd08054d45f8d722d332dd8e2ba2be1902ba041
+
+COCOAPODS: 1.10.2

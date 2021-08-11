@@ -1,0 +1,6 @@
+framework module Pods_AGBlinkView_Tests {
+  umbrella header "Pods-AGBlinkView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

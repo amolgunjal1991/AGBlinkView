@@ -1,0 +1,6 @@
+framework module AGBlinkView {
+  umbrella header "AGBlinkView-umbrella.h"
+
+  export *
+  module * { export * }
+}
