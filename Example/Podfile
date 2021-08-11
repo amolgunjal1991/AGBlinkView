@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'AGBlinkView_Example' do
+  pod 'AGBlinkView', :path => '../'
+
+  target 'AGBlinkView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
