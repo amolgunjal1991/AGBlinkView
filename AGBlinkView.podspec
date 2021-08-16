@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AGBlinkView'
   s.version          = '0.1.0'
-  s.summary          = 'AGBlinkView changes the bakground color of the view with the some time of interval.'
+  s.summary          = 'AGBlinkView changes the bakground color of the view with the certain time of interval.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
