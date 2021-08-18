@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		1BD51F74A771B6BE7BDC700A001CC049 /* Pods-AGBlinkView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGBlinkView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		20BAD6913C5316551E22BAC089E1EC86 /* Pods-AGBlinkView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGBlinkView_Tests-Info.plist"; sourceTree = "<group>"; };
-		2263341105395A1C229B0F3BF8429E83 /* AGBlinkView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AGBlinkView.swift; path = AGBlinkView/Classes/AGBlinkView.swift; sourceTree = "<group>"; };
+		2263341105395A1C229B0F3BF8429E83 /* AGBlinkView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AGBlinkView.swift; sourceTree = "<group>"; };
 		2ABC83B605B6A7B484135DCB26C15D55 /* Pods_AGBlinkView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGBlinkView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		306D58A34CEFE7EC879570187C5577E5 /* AGBlinkView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AGBlinkView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40430566E8E2D5FDFDE23470368D0193 /* Pods-AGBlinkView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGBlinkView_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -110,6 +110,14 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
+		3C63BB2826CCD36F0091DF34 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2263341105395A1C229B0F3BF8429E83 /* AGBlinkView.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		44EBED727F29947BD456C0C166602239 /* Pods-AGBlinkView_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,12 +167,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AA0C8EFB1FC276301C653092A1DB7C2B /* Classes */ = {
+		AA0C8EFB1FC276301C653092A1DB7C2B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
 				F7F5D0C2E9A85793853D95ADCE83C512 /* AGBlinkView */,
 			);
-			name = Classes;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		B7F855EEC713DCC97A15B9193DA3BB3F /* Pods-AGBlinkView_Example */ = {
@@ -188,7 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				AA0C8EFB1FC276301C653092A1DB7C2B /* Classes */,
+				AA0C8EFB1FC276301C653092A1DB7C2B /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				99FFA8AD206F5CDDE0E875625D993125 /* Products */,
 				FD0CF7BC92879335BD76E51AFA7B8B1F /* Targets Support Files */,
@@ -206,7 +214,7 @@
 		F7F5D0C2E9A85793853D95ADCE83C512 /* AGBlinkView */ = {
 			isa = PBXGroup;
 			children = (
-				2263341105395A1C229B0F3BF8429E83 /* AGBlinkView.swift */,
+				3C63BB2826CCD36F0091DF34 /* Source */,
 				0F6848D2F7DB0DCB900E6912DBEDA095 /* Pod */,
 				76DD7405374E6CB52C9220821B99271C /* Support Files */,
 			);
