@@ -110,14 +110,6 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		3C63BB2826CCD36F0091DF34 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				2263341105395A1C229B0F3BF8429E83 /* AGBlinkView.swift */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
 		44EBED727F29947BD456C0C166602239 /* Pods-AGBlinkView_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -214,7 +206,7 @@
 		F7F5D0C2E9A85793853D95ADCE83C512 /* AGBlinkView */ = {
 			isa = PBXGroup;
 			children = (
-				3C63BB2826CCD36F0091DF34 /* Source */,
+				2263341105395A1C229B0F3BF8429E83 /* AGBlinkView.swift */,
 				0F6848D2F7DB0DCB900E6912DBEDA095 /* Pod */,
 				76DD7405374E6CB52C9220821B99271C /* Support Files */,
 			);
