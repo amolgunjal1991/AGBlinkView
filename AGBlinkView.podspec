@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AGBlinkView'
   s.version          = '0.1.0'
-  s.summary          = 'AGBlinkView changes the bakground color of the view with the certain time of interval.'
+  s.summary          = 'AGBlinkView blinks view with the certain time of interval.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'AGBlinkView changes the bakground color of the view with the certain time of interval.'
 
   s.homepage         = 'https://github.com/amolgunjal1991/AGBlinkView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
