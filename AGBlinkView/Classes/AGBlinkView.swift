@@ -7,7 +7,7 @@ import UIKit
 public class AGBlinkView : UIView {
     
     //MARK:- Variables
-    let colors : [UIColor] = [.red, .orange, .yellow, .green, .blue, .purple]
+    let colors : [UIColor] = [.red, .orange, .yellow, .green, .blue, .purple, .cyan, .magenta]
     var colorCounter = 0
     
     //MARK:- Lifecycle methods
@@ -26,7 +26,7 @@ public class AGBlinkView : UIView {
             let scheduledColorChanged = Timer.scheduledTimer(withTimeInterval: 2.0,
                                                              repeats: true) { (timer) in  //1
                 UIView.animate(withDuration: 2.0) {  //2
-                    self.layer.backgroundColor = self.colors[self.colorCounter % 6].cgColor  //3
+                    self.layer.backgroundColor = self.colors[self.colorCounter % 8].cgColor  //3
                     self.colorCounter += 1  //4
                 }
             }
